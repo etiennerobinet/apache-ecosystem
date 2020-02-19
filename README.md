@@ -1,11 +1,25 @@
-<span style="text-align:center"><img src="https://camo.githubusercontent.com/86abd95b803d973f9dbda5ae4f46998971aa7296/68747470733a2f2f706c6334782e6170616368652e6f72672f696d616765732f6170616368655f706c6334785f6c6f676f2e706e67" style="zoom:50%;" />   <img src="https://www.nicolaferraro.me/images/post-logo-apache-camel.png" style="zoom:40%;" />     <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/Apache_Karaf_Logo.svg/500px-Apache_Karaf_Logo.svg.png" style="zoom:50%;" /> </span>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Apache_Software_Foundation_Logo_%282016%29.svg/1024px-Apache_Software_Foundation_Logo_%282016%29.svg.png" style="zoom:33%;" />
+
+# Apache Ecosystem Project
+
+The goal of this project is to create a well-integrated Ecosystem using open-source software from the Apache Foundation.
+This system will allow use to acquire data from industrial equipment like PLCs with high-level API to integrate multiple types of PLCs and to route this data to a real-time database. This database will then be visualized using an Apache software or a WebApp.
+Currently planning to integrate:
+
+- [PLC4X](https://github.com/apache/plc4x) <img src="https://camo.githubusercontent.com/86abd95b803d973f9dbda5ae4f46998971aa7296/68747470733a2f2f706c6334782e6170616368652e6f72672f696d616765732f6170616368655f706c6334785f6c6f676f2e706e67" style="zoom: 50%;" /> 
+- [Camel](https://camel.apache.org/) <img src="https://www.nicolaferraro.me/images/post-logo-apache-camel.png" style="zoom: 33%;" />
+- [Karaf](https://karaf.apache.org/)<img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/Apache_Karaf_Logo.svg/500px-Apache_Karaf_Logo.svg.png" style="zoom:40%;" />
+-  [IoTDB](https://iotdb.apache.org/)<img src="https://www.apache.org/logos/res/iotdb/default.png" style="zoom:30%;" /> 
+-  [Grafana](https://grafana.com/)<img src="https://stitch-microverse.s3.amazonaws.com/uploads/domains/grafana-logo.png" style="zoom:7%;" />
+- [ActiveMQ](https://activemq.apache.org/)<img src="https://activemq.apache.org/assets/img/activemq_logo_white_vertical.png" style="zoom:40%;" /> 
 
 
-# PLC4X - Camel-blueprint integration in Karaf
+
+## PLC4X - Camel-blueprint integration in Karaf
 
 For now, only tests with the S7 driver have been made
 
-## Requirements
+### Requirements
 
 - Java 8
 - Git
@@ -13,7 +27,7 @@ For now, only tests with the S7 driver have been made
 - Maven 3.6.x
 - IDE with maven project
 
-## Installation
+### Installation
 
 1. Download [PLC4X](https://plc4x.apache.org/) sources (you can also clone from [git](https://github.com/apache/plc4x)) 
 2. Go to `plc4j\integrations\apache-camel\src\main\java\org\apache\plc4x\camel` and find the `PLC4XConsumer.java` source file
@@ -129,7 +143,7 @@ For now, only tests with the S7 driver have been made
     - `bundle:list` to get the bundle number and then `bundle:watch <bundleID>`for easier updates
     - `log:tail` to see the route writing the body to the log
 
-### Fetching with Poll interval
+#### Fetching with Poll interval
 
 To fetch data every certain period, you need to adapt your `Consumer` to a `PollConsumer`. Just modify your route to this
 
@@ -153,7 +167,7 @@ To fetch data every certain period, you need to adapt your `Consumer` to a `Poll
 
 ## PLC4X Design
 
-## Drivers and protocols
+### Drivers and protocols
 
 Here a simple visualization of how the library works. It is copied from this [document](https://github.com/apache/plc4x/blob/rel/0.5/plc4j/protocols/src/site/asciidoc/developers/implementing-drivers.adoc) where we can find every information we need to implement our own driver.
 
@@ -216,7 +230,7 @@ Here a simple visualization of how the library works. It is copied from this [do
   +------------------------------------------+
 ```
 
-### Accessing Data
+#### Accessing Data
 
 To request the data from the PLC, plc4x uses `readRequestBuilder` and `writeRequestBuilder`.
 
