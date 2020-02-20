@@ -1,4 +1,4 @@
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Apache_Software_Foundation_Logo_%282016%29.svg/1024px-Apache_Software_Foundation_Logo_%282016%29.svg.png" style="zoom:20%;" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Apache_Software_Foundation_Logo_%282016%29.svg/1024px-Apache_Software_Foundation_Logo_%282016%29.svg.png" width="300" />
 
 # Apache Ecosystem Project
 
@@ -6,12 +6,14 @@ The goal of this project is to create a well-integrated Ecosystem using open-sou
 This system will allow use to acquire data from industrial equipment like PLCs with high-level API to integrate multiple types of PLCs and to route this data to a real-time database. This database will then be visualized using an Apache software or a WebApp.
 Currently planning to integrate:
 
-- [PLC4X](https://github.com/apache/plc4x) <img src="https://camo.githubusercontent.com/86abd95b803d973f9dbda5ae4f46998971aa7296/68747470733a2f2f706c6334782e6170616368652e6f72672f696d616765732f6170616368655f706c6334785f6c6f676f2e706e67" style="zoom: 20%;" /> 
-- [Camel](https://camel.apache.org/) <img src="https://www.nicolaferraro.me/images/post-logo-apache-camel.png" style="zoom: 15%;" />
-- [Karaf](https://karaf.apache.org/)<img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/Apache_Karaf_Logo.svg/500px-Apache_Karaf_Logo.svg.png" style="zoom:20%;" />
--  [IoTDB](https://iotdb.apache.org/)<img src="https://www.apache.org/logos/res/iotdb/default.png" style="zoom:15%;" /> 
--  [Grafana](https://grafana.com/)<img src="https://stitch-microverse.s3.amazonaws.com/uploads/domains/grafana-logo.png" style="zoom:3%;" />
-- [ActiveMQ](https://activemq.apache.org/)<img src="https://activemq.apache.org/assets/img/activemq_logo_white_vertical.png" style="zoom:20%;" /> 
+- [PLC4X](https://github.com/apache/plc4x) <img src="https://camo.githubusercontent.com/86abd95b803d973f9dbda5ae4f46998971aa7296/68747470733a2f2f706c6334782e6170616368652e6f72672f696d616765732f6170616368655f706c6334785f6c6f676f2e706e67" width="200" /> 
+- [Camel](https://camel.apache.org/) <img src="https://www.nicolaferraro.me/images/post-logo-apache-camel.png"  width="200"  />
+- [Karaf](https://karaf.apache.org/)<img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/Apache_Karaf_Logo.svg/500px-Apache_Karaf_Logo.svg.png"  width="200"  />
+
+
+-      [IoTDB](https://iotdb.apache.org/)<img src="https://www.apache.org/logos/res/iotdb/default.png"  width="200"  /> 
+-  [Grafana](https://grafana.com/)<img src="https://stitch-microverse.s3.amazonaws.com/uploads/domains/grafana-logo.png"  width="200" />
+- [ActiveMQ](https://activemq.apache.org/)<img src="https://activemq.apache.org/assets/img/activemq_logo_white_vertical.png"  width="200"  /> 
 
 
 
