@@ -1,4 +1,4 @@
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Apache_Software_Foundation_Logo_%282016%29.svg/1024px-Apache_Software_Foundation_Logo_%282016%29.svg.png" width="300" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Apache_Software_Foundation_Logo_%282016%29.svg/1024px-Apache_Software_Foundation_Logo_%282016%29.svg.png" width="500" />
 
 # Apache Ecosystem Project
 
