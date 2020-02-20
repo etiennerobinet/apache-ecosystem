@@ -7,13 +7,12 @@ This system will allow use to acquire data from industrial equipment like PLCs w
 
 Currently planning to integrate:
 
-- [PLC4X](https://github.com/apache/plc4x)<img src="https://plc4x.apache.org/images/apache_plc4x_logo.png" width="120" /> 
-- [Camel](https://camel.apache.org/) 
-<img src="https://www.nicolaferraro.me/images/post-logo-apache-camel.png"  width="120"  />
-- [Karaf](https://karaf.apache.org/)<img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/Apache_Karaf_Logo.svg/500px-Apache_Karaf_Logo.svg.png"  width="120"  />
-- [IoTDB](https://iotdb.apache.org/)<img src="https://www.apache.org/logos/res/iotdb/default.png"  width="120"  /> 
-- [Grafana](https://grafana.com/)<img src="https://stitch-microverse.s3.amazonaws.com/uploads/domains/grafana-logo.png"  width="120" />
-- [ActiveMQ](https://activemq.apache.org/)<img src="https://activemq.apache.org/assets/img/activemq_logo_white_vertical.png"  width="120"  /> 
+- [PLC4X](https://github.com/apache/plc4x) <img src="https://plc4x.apache.org/images/apache_plc4x_logo.png" width="120" /> 
+- [Camel](https://camel.apache.org/) <img src="https://www.nicolaferraro.me/images/post-logo-apache-camel.png"  width="120"  />
+- [Karaf](https://karaf.apache.org/) <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/Apache_Karaf_Logo.svg/500px-Apache_Karaf_Logo.svg.png"  width="120"  />
+- [IoTDB](https://iotdb.apache.org/) <img src="https://www.apache.org/logos/res/iotdb/default.png"  width="120"  /> 
+- [Grafana](https://grafana.com/) <img src="https://stitch-microverse.s3.amazonaws.com/uploads/domains/grafana-logo.png"  width="120" />
+- [ActiveMQ](https://activemq.apache.org/) <img src="https://activemq.apache.org/assets/img/activemq_logo_white_vertical.png"  width="120"  /> 
 
 
 
