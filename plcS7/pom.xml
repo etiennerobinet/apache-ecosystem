@@ -43,7 +43,8 @@
                             org.example*;version=${project.version}
                         </Export-Package>
                         <Import-Package>
-                            org.apache.plc4x.java.s7
+                            org.apache.plc4x.java.s7,
+                            org.apache.plc4x.java.abeth
                         </Import-Package>
                     </instructions>
                 </configuration>

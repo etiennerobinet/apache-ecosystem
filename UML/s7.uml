@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.plc4x.java.s7</OriginalElement>
+  <nodes>
+    <node x="64.83333333333337" y="1471.0">org.apache.plc4x.java.s7.netty.Plc4XS7Protocol</node>
+    <node x="32.7566244239631" y="1726.0">org.apache.plc4x.java.s7.netty.Plc4XS7ProtocolTest</node>
+    <node x="469.75662442396316" y="432.0">org.apache.plc4x.java.s7.netty.model.types.MemoryArea</node>
+    <node x="598.9441244239631" y="1493.0">org.apache.plc4x.java.s7.netty.S7ProtocolTest</node>
+    <node x="929.0934139784945" y="1660.0">org.apache.plc4x.java.s7.connection.S7PlcConnection</node>
+    <node x="130.08333333333337" y="223.0">org.apache.plc4x.java.s7.netty.model.types.TransportSize</node>
+    <node x="966.5934139784944" y="1961.0">org.apache.plc4x.java.s7.S7PlcDriver</node>
+    <node x="700.7566244239631" y="1071.0">org.apache.plc4x.java.s7.netty.S7Protocol</node>
+    <node x="217.33333333333337" y="1016.0">org.apache.plc4x.java.s7.model.S7Field</node>
+    <node x="17.333333333333485" y="1193.0">org.apache.plc4x.java.s7.netty.Plc4XNettyException</node>
+    <node x="860.4583333333334" y="0.0">org.apache.plc4x.java.s7.types.S7ControllerType</node>
+    <node x="1071.756624423963" y="1449.0">org.apache.plc4x.java.base.connection.NettyPlcConnection</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.plc4x.java.s7.netty.Plc4XS7ProtocolTest" target="org.apache.plc4x.java.s7.netty.Plc4XS7Protocol">
+      <point x="0.0" y="-59.5" />
+      <point x="174.7566244239631" y="1640.0" />
+      <point x="133.83333333333337" y="1640.0" />
+      <point x="-69.0" y="48.5" />
+    </edge>
+    <edge source="org.apache.plc4x.java.s7.netty.Plc4XS7ProtocolTest" target="org.apache.plc4x.java.s7.netty.model.types.TransportSize">
+      <point x="-94.66666666666674" y="-59.5" />
+      <point x="80.08995775729636" y="1640.0" />
+      <point x="0.0" y="1640.0" />
+      <point x="0.0" y="996.0" />
+      <point x="155.83333333333337" y="996.0" />
+      <point x="-128.75" y="356.5" />
+    </edge>
+    <edge source="org.apache.plc4x.java.s7.model.S7Field" target="org.apache.plc4x.java.s7.netty.model.types.MemoryArea">
+      <point x="100.875" y="-191.5" />
+      <point x="452.70833333333337" y="996.0" />
+      <point x="532.7566244239631" y="996.0" />
+      <point x="-42.0" y="147.5" />
+    </edge>
+    <edge source="org.apache.plc4x.java.s7.netty.S7ProtocolTest" target="org.apache.plc4x.java.s7.netty.S7Protocol">
+      <point x="63.75" y="-26.5" />
+      <point x="747.6941244239631" y="1424.0" />
+      <point x="785.5066244239631" y="1424.0" />
+      <point x="-84.75" y="136.5" />
+    </edge>
+    <edge source="org.apache.plc4x.java.s7.connection.S7PlcConnection" target="org.apache.plc4x.java.base.connection.NettyPlcConnection">
+      <point x="72.00000000000011" y="-125.5" />
+      <point x="1127.0934139784945" y="1640.0" />
+      <point x="1131.756624423963" y="1640.0" />
+      <point x="-60.0" y="70.5" />
+    </edge>
+    <edge source="org.apache.plc4x.java.s7.netty.S7ProtocolTest" target="org.apache.plc4x.java.s7.types.S7ControllerType">
+      <point x="21.25" y="-26.5" />
+      <point x="705.1941244239631" y="1424.0" />
+      <point x="690.2566244239631" y="1424.0" />
+      <point x="690.2566244239631" y="203.0" />
+      <point x="916.8869047619048" y="203.0" />
+      <point x="-22.571428571428555" y="81.5" />
+    </edge>
+    <edge source="org.apache.plc4x.java.s7.connection.S7PlcConnection" target="org.apache.plc4x.java.s7.netty.Plc4XS7Protocol">
+      <point x="-107.99999999999989" y="-125.5" />
+      <point x="947.0934139784946" y="1630.0" />
+      <point x="271.83333333333337" y="1630.0" />
+      <point x="69.0" y="48.5" />
+    </edge>
+    <edge source="org.apache.plc4x.java.s7.netty.Plc4XS7ProtocolTest" target="org.apache.plc4x.java.s7.netty.model.types.MemoryArea">
+      <point x="94.66666666666669" y="-59.5" />
+      <point x="269.4232910906298" y="1640.0" />
+      <point x="553.5281298003073" y="1640.0" />
+      <point x="553.5281298003073" y="996.0" />
+      <point x="574.7566244239631" y="996.0" />
+      <point x="0.0" y="147.5" />
+    </edge>
+    <edge source="org.apache.plc4x.java.s7.connection.S7PlcConnection" target="org.apache.plc4x.java.s7.netty.S7Protocol">
+      <point x="-35.999999999999886" y="-125.5" />
+      <point x="1019.0934139784946" y="1610.0" />
+      <point x="955.0066244239631" y="1610.0" />
+      <point x="84.75" y="136.5" />
+    </edge>
+    <edge source="org.apache.plc4x.java.s7.netty.Plc4XS7Protocol" target="org.apache.plc4x.java.s7.netty.model.types.TransportSize">
+      <point x="0.0" y="-48.5" />
+      <point x="202.83333333333337" y="1424.0" />
+      <point x="206.83333333333337" y="1424.0" />
+      <point x="-77.25" y="356.5" />
+    </edge>
+    <edge source="org.apache.plc4x.java.s7.netty.S7ProtocolTest" target="org.apache.plc4x.java.s7.netty.model.types.TransportSize">
+      <point x="-63.75" y="-26.5" />
+      <point x="620.1941244239631" y="1424.0" />
+      <point x="606.4031298003073" y="1424.0" />
+      <point x="606.4031298003073" y="976.0" />
+      <point x="361.83333333333337" y="976.0" />
+      <point x="77.25" y="356.5" />
+    </edge>
+    <edge source="org.apache.plc4x.java.s7.connection.S7PlcConnection" target="org.apache.plc4x.java.s7.types.S7ControllerType">
+      <point x="1.1368683772161603E-13" y="-125.5" />
+      <point x="1055.0934139784945" y="1640.0" />
+      <point x="1050.256624423963" y="1640.0" />
+      <point x="1050.256624423963" y="203.0" />
+      <point x="984.6011904761906" y="203.0" />
+      <point x="45.142857142857224" y="81.5" />
+    </edge>
+    <edge source="org.apache.plc4x.java.s7.netty.model.types.TransportSize" target="org.apache.plc4x.java.s7.types.S7ControllerType">
+      <point x="-77.25" y="-356.5" />
+      <point x="207.33333333333337" y="183.0" />
+      <point x="871.7440476190477" y="183.0" />
+      <point x="-67.71428571428567" y="81.5" />
+    </edge>
+    <edge source="org.apache.plc4x.java.s7.netty.S7Protocol" target="org.apache.plc4x.java.s7.netty.model.types.MemoryArea">
+      <point x="-42.375" y="-136.5" />
+      <point x="827.8816244239631" y="956.0" />
+      <point x="658.7566244239631" y="956.0" />
+      <point x="84.0" y="147.5" />
+    </edge>
+    <edge source="org.apache.plc4x.java.s7.netty.Plc4XS7Protocol" target="org.apache.plc4x.java.s7.netty.Plc4XNettyException">
+      <point x="-92.0" y="-48.5" />
+      <point x="110.83333333333337" y="1424.0" />
+      <point x="106.83333333333348" y="1424.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.plc4x.java.s7.connection.S7PlcConnection" target="org.apache.plc4x.java.s7.model.S7Field">
+      <point x="-71.99999999999989" y="-125.5" />
+      <point x="983.0934139784946" y="1620.0" />
+      <point x="419.08333333333337" y="1620.0" />
+      <point x="67.25" y="191.5" />
+    </edge>
+    <edge source="org.apache.plc4x.java.s7.netty.Plc4XS7Protocol" target="org.apache.plc4x.java.s7.model.S7Field">
+      <point x="92.0" y="-48.5" />
+      <point x="294.83333333333337" y="1424.0" />
+      <point x="284.58333333333337" y="1424.0" />
+      <point x="-67.25" y="191.5" />
+    </edge>
+    <edge source="org.apache.plc4x.java.s7.netty.S7Protocol" target="org.apache.plc4x.java.s7.netty.model.types.TransportSize">
+      <point x="-127.125" y="-136.5" />
+      <point x="743.1316244239631" y="966.0" />
+      <point x="413.33333333333337" y="966.0" />
+      <point x="128.75" y="356.5" />
+    </edge>
+    <edge source="org.apache.plc4x.java.s7.model.S7Field" target="org.apache.plc4x.java.s7.netty.model.types.TransportSize">
+      <point x="-100.875" y="-191.5" />
+      <point x="250.95833333333337" y="996.0" />
+      <point x="258.83333333333337" y="996.0" />
+      <point x="-25.75" y="356.5" />
+    </edge>
+    <edge source="org.apache.plc4x.java.s7.S7PlcDriver" target="org.apache.plc4x.java.s7.connection.S7PlcConnection">
+      <point x="1.1368683772161603E-13" y="-26.5" />
+      <point x="0.0" y="125.5" />
+    </edge>
+    <edge source="org.apache.plc4x.java.s7.netty.S7Protocol" target="org.apache.plc4x.java.s7.types.S7ControllerType">
+      <point x="127.125" y="-136.5" />
+      <point x="997.3816244239631" y="996.0" />
+      <point x="950.4583333333334" y="996.0" />
+      <point x="950.4583333333334" y="203.0" />
+      <point x="962.0297619047619" y="203.0" />
+      <point x="22.571428571428555" y="81.5" />
+    </edge>
+    <edge source="org.apache.plc4x.java.s7.netty.S7ProtocolTest" target="org.apache.plc4x.java.s7.netty.model.types.MemoryArea">
+      <point x="-21.25" y="-26.5" />
+      <point x="662.6941244239631" y="1424.0" />
+      <point x="646.2111175115208" y="1424.0" />
+      <point x="646.2111175115208" y="996.0" />
+      <point x="616.7566244239631" y="996.0" />
+      <point x="42.0" y="147.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.4945919370698132" x="570.5" y="997.0" />
+  <SelectedNodes>
+    <node>org.apache.plc4x.java.base.connection.NettyPlcConnection</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

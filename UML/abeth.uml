@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.plc4x.java.abeth</OriginalElement>
+  <nodes>
+    <node x="411.11375000000004" y="629.0">org.apache.plc4x.java.abeth.readwrite</node>
+    <node x="27.666666666666686" y="907.0">org.apache.plc4x.java.abeth.connection.AbEthFieldHandler</node>
+    <node x="66.88250000000002" y="0.0">org.apache.plc4x.java.abeth.model.types.FileType</node>
+    <node x="0.0" y="497.0">org.apache.plc4x.java.abeth.model.AbEthField</node>
+    <node x="146.66666666666669" y="1053.0">org.apache.plc4x.java.abeth.connection.AbEthPlcConnection</node>
+    <node x="517.6666666666667" y="895.0">org.apache.plc4x.java.abeth.protocol.AbEthProtocol</node>
+    <node x="212.66666666666669" y="840.0">org.apache.plc4x.java.abeth.protocol.Plc4xAbEthProtocol</node>
+    <node x="131.66666666666669" y="1200.0">org.apache.plc4x.java.abeth.AbEthDriver</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.plc4x.java.abeth.protocol.AbEthProtocol" target="org.apache.plc4x.java.abeth.readwrite">
+      <point x="0.0" y="-26.5" />
+      <point x="586.1666666666667" y="820.0" />
+      <point x="545.2137500000001" y="820.0" />
+      <point x="59.60000000000002" y="14.5" />
+    </edge>
+    <edge source="org.apache.plc4x.java.abeth.protocol.Plc4xAbEthProtocol" target="org.apache.plc4x.java.abeth.model.AbEthField">
+      <point x="-106.875" y="-81.5" />
+      <point x="248.29166666666669" y="820.0" />
+      <point x="159.16666666666666" y="820.0" />
+      <point x="63.66666666666666" y="146.5" />
+    </edge>
+    <edge source="org.apache.plc4x.java.abeth.connection.AbEthFieldHandler" target="org.apache.plc4x.java.abeth.model.AbEthField">
+      <point x="0.0" y="-14.5" />
+      <point x="110.16666666666669" y="820.0" />
+      <point x="95.5" y="820.0" />
+      <point x="0.0" y="146.5" />
+    </edge>
+    <edge source="org.apache.plc4x.java.abeth.readwrite" target="org.apache.plc4x.java.abeth.readwrite">
+      <point x="-59.599999999999994" y="14.5" />
+      <point x="426.0137500000001" y="678.0" />
+      <point x="391.11375000000004" y="678.0" />
+      <point x="391.11375000000004" y="650.75" />
+      <point x="-74.5" y="7.25" />
+    </edge>
+    <edge source="org.apache.plc4x.java.abeth.connection.AbEthPlcConnection" target="org.apache.plc4x.java.abeth.model.AbEthField">
+      <point x="-64.5" y="-48.5" />
+      <point x="168.16666666666669" y="1033.0" />
+      <point x="17.166666666666714" y="1033.0" />
+      <point x="17.166666666666714" y="820.0" />
+      <point x="31.833333333333343" y="820.0" />
+      <point x="-63.66666666666666" y="146.5" />
+    </edge>
+    <edge source="org.apache.plc4x.java.abeth.AbEthDriver" target="org.apache.plc4x.java.abeth.connection.AbEthPlcConnection">
+      <point x="0.0" y="-58.5" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="org.apache.plc4x.java.abeth.model.AbEthField" target="org.apache.plc4x.java.abeth.model.types.FileType">
+      <point x="47.75" y="-146.5" />
+      <point x="143.25" y="472.0" />
+      <point x="161.88250000000002" y="472.0" />
+      <point x="0.0" y="223.5" />
+    </edge>
+    <edge source="org.apache.plc4x.java.abeth.connection.AbEthPlcConnection" target="org.apache.plc4x.java.abeth.connection.AbEthFieldHandler">
+      <point x="-21.5" y="-48.5" />
+      <point x="211.16666666666669" y="1023.0" />
+      <point x="110.16666666666669" y="1023.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.plc4x.java.abeth.protocol.Plc4xAbEthProtocol" target="org.apache.plc4x.java.abeth.readwrite">
+      <point x="35.625" y="-81.5" />
+      <point x="390.7916666666667" y="810.0" />
+      <point x="485.61375000000004" y="810.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.plc4x.java.abeth.connection.AbEthPlcConnection" target="org.apache.plc4x.java.abeth.protocol.Plc4xAbEthProtocol">
+      <point x="21.5" y="-48.5" />
+      <point x="254.16666666666669" y="1023.0" />
+      <point x="355.1666666666667" y="1023.0" />
+      <point x="0.0" y="81.5" />
+    </edge>
+    <edge source="org.apache.plc4x.java.abeth.connection.AbEthPlcConnection" target="org.apache.plc4x.java.abeth.protocol.AbEthProtocol">
+      <point x="64.5" y="-48.5" />
+      <point x="297.1666666666667" y="1033.0" />
+      <point x="586.1666666666667" y="1033.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="org.apache.plc4x.java.abeth.protocol.Plc4xAbEthProtocol" target="org.apache.plc4x.java.abeth.model.types.FileType">
+      <point x="-35.625" y="-81.5" />
+      <point x="319.5416666666667" y="472.0" />
+      <point x="225.21583333333336" y="472.0" />
+      <point x="63.33333333333334" y="223.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7524308152580403" x="327.5" y="658.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

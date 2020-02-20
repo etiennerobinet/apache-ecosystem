@@ -17,3 +17,4 @@
 # under the License.
 #
 org.apache.plc4x.java.s7.S7PlcDriver
+org.apache.plc4x.java.abeth.AbEthDriver
