@@ -19,7 +19,7 @@
 
     <camelContext id="AB-PLC-Context" xmlns="http://camel.apache.org/schema/blueprint" streamCache="true">
         <route>
-            <from uri="plc4x:ab-eth://163.243.180.194/4?address=N10:22/5:SINGLEBIT"/>
+            <from uri="plc4x:ab-eth://163.243.180.194"/>
             <log message=" Reading from PLC:  ${body} at ${date:now:HH:mm:ss}" loggingLevel="INFO" />
             <to uri="mock:test?retainLast=10" />
         </route>

@@ -43,8 +43,7 @@
                             goodyear.corp.ge.test*;version=${project.version}
                         </Export-Package>
                         <Import-Package>
-                            org.apache.plc4x.java.abeth,
-                            com.github.jinahya.bit.io.*
+                            org.apache.plc4x.java.abeth
                         </Import-Package>
                     </instructions>
                 </configuration>

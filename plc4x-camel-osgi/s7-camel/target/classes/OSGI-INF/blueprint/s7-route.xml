@@ -18,18 +18,21 @@
 <blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0" default-activation="lazy">
     <camelContext id="S7-PLC-Context" xmlns="http://camel.apache.org/schema/blueprint" streamCache="true" >
         <route>
-            <from uri="timer://foo?fixedRate=true&amp;period=5000" />
+            <from uri="timer://foo?fixedRate=true&amp;period=500" />
+            <pollEnrich>
+                <constant>plc4x:s7:tcp://192.168.178.10?address=%25DB1.DBW0:WORD</constant>
+            </pollEnrich>
             <setHeader  headerName="fieldName">
                 <constant>default</constant>
             </setHeader>
             <setHeader headerName="fieldQuery">
-                <constant>%DB1:4.0:STRING</constant>
+                <constant>%MW10:WORD</constant>
             </setHeader>
-            <setBody >
-                <simple>Hello</simple>
-            </setBody>
+            <convertBodyTo type="java.lang.Short"/>
             <log message=" Sending to PLC:  ${body} at ${date:now:HH:mm:ss}" loggingLevel="INFO" />
-            <to uri="plc4x:s7://192.168.178.10/0/1" />
+            <to uri="plc4x:s7:tcp://192.168.178.10" />
+            <log message=" Response code: ${body.getResponseCode(default)} at ${date:now:HH:mm:ss}" loggingLevel="INFO" />
         </route>
     </camelContext>
+
 </blueprint>
