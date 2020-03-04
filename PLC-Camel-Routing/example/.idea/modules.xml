@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ab-eth-camel/ab-eth-camel.iml" filepath="$PROJECT_DIR$/ab-eth-camel/ab-eth-camel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plc-routing.iml" filepath="$PROJECT_DIR$/plc-routing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/s7-camel/s7-camel.iml" filepath="$PROJECT_DIR$/s7-camel/s7-camel.iml" />
+    </modules>
+  </component>
+</project>

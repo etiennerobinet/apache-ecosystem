@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1582797932986
+Build-Jdk: 11.0.5
+Built-By: AA68710
+Bundle-Blueprint: OSGI-INF/blueprint/ab-eth-route.xml
+Bundle-Description: ab-eth camel OSGi blueprint bundle project.
+Bundle-ManifestVersion: 2
+Bundle-Name: ab-eth-camel for OSGi
+Bundle-SymbolicName: ab-eth-camel
+Bundle-Version: 0.1.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Import-Package: org.apache.plc4x.java.abeth
+Tool: Bnd-4.2.0.201903051501
