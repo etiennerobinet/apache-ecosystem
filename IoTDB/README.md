@@ -25,7 +25,7 @@ As the library did not implemented a Camel component nor was ready to be deploye
 3. To use IoTDB with camel routing, we will use the Camel component
 
    - `feature:repo-add mvn:org.apache.iotdb/camel-features-iotdb/{version}/xml/features`
-   - `feature:install camel-features-iotdb`
+   - `feature:install camel-iotdb`
 
 4. Now you can create your karaf-blueprint project inside your IDE
 
