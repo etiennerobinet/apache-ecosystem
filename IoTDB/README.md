@@ -73,7 +73,12 @@ As the library did not implemented a Camel component nor was ready to be deploye
 ## JDBC
 
 - Install the `pax-jdbc-iotdb` bundle and the `jdbc` feature to be able to create a Datasource in karaf
-
+  - Until acceptance of PR, find the `pax-jdbc-iotdb` [here](https://github.com/etiennerobinet/org.ops4j.pax.jdbc/tree/iotdb/pax-jdbc-iotdb)
+  - Build the project
+  - `feature:install jdbc`
+  - `bundle:install -s mvn:org.ops4j.pax.jdbc/pax-jdbc-iotdb/1.4.5-SNAPSHOT`
+  - Start your IoTDB server `{IOTDB_DIRECTORY}\server\target\iotdb-server-{version}\sbin`
+  - Create a DataSource for your server
+`jdbc:ds-create -p root -u root -url 'jdbc:iotdb://127.0.0.1:6667' -dc org.apache.iotdb.jdbc.IoTDBDriver iot`
 - You can use `jdbc:query` or `jdbc:execute` to interact with the database
-
 - For more information and syntax, check the IoTDB [website](http://iotdb.apache.org/#/)
