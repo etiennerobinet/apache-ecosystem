@@ -21,23 +21,28 @@
             http://camel.apache.org/schema/blueprint http://camel.apache.org/schema/blueprint/camel-blueprint-2.24.2.xsd">
 
 
-    <camelContext id="S7-PLC-Context" xmlns="http://camel.apache.org/schema/blueprint" streamCache="true" >
-        <route>
-            <from uri="timer://foo?fixedRate=true&amp;period=200" />
+    <camelContext id="PLC-IoTDB" xmlns="http://camel.apache.org/schema/blueprint" streamCache="true" >
+        <route id="plc-route" >
+            <from uri="timer://plcFetch?fixedRate=true&amp;period=500"/>
             <pollEnrich>
-                <constant>plc4x:s7:tcp://192.168.178.10?address=%25DB1.DBW0:WORD</constant>
+                <simple>plc4x:s7:tcp://192.168.178.10?address=#fields</simple> <!-- TODO CHANGE TO PLC IP -->
             </pollEnrich>
-            <log message="${body} " loggingLevel="INFO" />
-            <setHeader  headerName="fieldName">
-                <constant>default</constant>
-            </setHeader>
-            <setHeader headerName="fieldQuery">
-                <constant>%MW9:WORD</constant>
-            </setHeader>
-            <convertBodyTo type="java.lang.Short"/>
-            <to uri="plc4x:s7:tcp://192.168.178.10" />
-            <log message="${body.getResponseCode(default)} " loggingLevel="INFO" />
+            <log message="${body}"/>
+            <toD uri="iotdb://127.0.0.1?sql=INSERT INTO root.ge.s7(timestamp,pressure,temperature,status) values(now(),${body.get(0)}, ${body.get(1)}, ${body.get(2)})"/>
         </route>
     </camelContext>
+
+
+    <bean id="fields" class="java.util.ArrayList">
+        <argument>
+            <list>
+                <value type="java.lang.String">%DB1.DBD0:REAL</value> <!-- 0 -->
+                <value type="java.lang.String">%DB1.DBW4:INT</value> <!-- 1 -->
+                <value type="java.lang.String">%QX1.3:BOOL</value> <!-- 2 -->
+            </list>
+        </argument>
+    </bean>
+
+
 
 </blueprint>

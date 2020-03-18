@@ -16,4 +16,4 @@
 # specific language governing permissions and limitations
 # under the License.
 #
-org.apache.plc4x.java.abeth.AbEthDriver
+org.apache.plc4x.java.transport.tcp.TcpTransport

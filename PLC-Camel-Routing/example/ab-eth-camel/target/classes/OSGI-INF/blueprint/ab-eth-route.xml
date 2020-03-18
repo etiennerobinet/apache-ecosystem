@@ -15,14 +15,28 @@
   See the License for the specific language governing permissions and
   limitations under the License.
 -->
-<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0" default-activation="lazy">
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation= "http://www.osgi.org/xmlns/blueprint/v1.0.0 https://www.osgi.org/xmlns/blueprint/v1.0.0/blueprint.xsd
+            http://camel.apache.org/schema/blueprint http://camel.apache.org/schema/blueprint/camel-blueprint-2.24.2.xsd">
 
     <camelContext id="AB-PLC-Context" xmlns="http://camel.apache.org/schema/blueprint" streamCache="true">
         <route>
-            <from uri="plc4x:ab-eth://163.243.180.194"/>
-            <log message=" Reading from PLC:  ${body} at ${date:now:HH:mm:ss}" loggingLevel="INFO" />
+            <from uri="timer:foo?fixedRate=true&amp;period=100"/>
+            <pollEnrich>
+                <simple>plc4x:eip:tcp://163.243.183.250/backplane=1&amp;slot=4?address=#fields</simple>
+            </pollEnrich>
+            <log message=" Reading from PLC:  ${body} " loggingLevel="INFO" />
             <to uri="mock:test?retainLast=10" />
         </route>
     </camelContext>
 
+    <bean id="fields" class="java.util.ArrayList">
+        <argument>
+            <list>
+                <value type="java.lang.String">%counter</value> <!-- 0 -->
+                <value type="java.lang.String">%test_dint</value> <!-- 1 -->
+            </list>
+        </argument>
+    </bean>
 </blueprint>

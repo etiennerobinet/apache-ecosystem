@@ -43,7 +43,8 @@
                             goodyear.corp.ge.test*;version=${project.version}
                         </Export-Package>
                         <Import-Package>
-                            org.apache.plc4x.java.abeth
+                            org.apache.plc4x.java.eip.readwrite,
+                            org.apache.plc4x.java.transport.tcp
                         </Import-Package>
                     </instructions>
                 </configuration>
