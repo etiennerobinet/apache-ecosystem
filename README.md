@@ -18,7 +18,12 @@ Currently planning to integrate:
 
 ## Current state 
 
-- Read/Write from/to S7 using camel-blueprint inside Karaf 
-  - Camel 2.24.2
-  - Karaf 4.28
-  - Plc4x 0.7.0-SNAPSHOT (altered)
+- Using the PLC4X-Camel component in Karaf to read/write to PLC using:
+  -EIP Protocol (Allen-Bradley)
+  -S7 (Siemens)
+- Installation via Karaf features
+- Using the SQL-Camel component to insert Timeseries inside IoTDB
+
+##To come
+- Dockerfile to create a Docker Image with IoTDB-Server, Grafana-Server and Grafana Connector for IoTDB
+- Implementing other Drivers
