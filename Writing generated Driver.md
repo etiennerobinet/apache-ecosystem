@@ -2,7 +2,7 @@
 
 # <img src="https://camo.githubusercontent.com/86abd95b803d973f9dbda5ae4f46998971aa7296/68747470733a2f2f706c6334782e6170616368652e6f72672f696d616765732f6170616368655f706c6334785f6c6f676f2e706e67" style="zoom:25%;" />  Writing generated Driver
 
-[TOC] 
+
 
 ### Clone latest source and build
 

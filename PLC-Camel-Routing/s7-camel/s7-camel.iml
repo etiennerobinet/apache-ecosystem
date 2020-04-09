@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Osmorc" name="OSGi">
+      <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="s7-camel-0.1.0-SNAPSHOT.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="goodyear.corp.ge.test.s7.Activator" bundleSymbolicName="s7-camel" bundleVersion="0.1.0-SNAPSHOT" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
+        <additionalProperties>
+          <property key="Bundle-Description" value="s7-camel OSGi blueprint bundle project." />
+          <property key="Export-Package" value="goodyear.corp.ge.test*;version=0.1.0-SNAPSHOT" />
+          <property key="Import-Package" value="org.apache.plc4x.java.spi.transport,org.apache.plc4x.java.s7.readwrite,org.apache.plc4x.camel" />
+          <property key="Bundle-Name" value="s7-camel for OSGi" />
+          <property key="Include-Resource" value="META-INF/services/org.apache.plc4x.java.api.PlcDriver=$MODULE_DIR$/src/main/resources/META-INF/services/org.apache.plc4x.java.api.PlcDriver,META-INF/services/org.apache.plc4x.java.spi.transport.Transport=$MODULE_DIR$/src/main/resources/META-INF/services/org.apache.plc4x.java.spi.transport.Transport,OSGI-INF/blueprint/s7-route.xml=$MODULE_DIR$/src/main/resources/OSGI-INF/blueprint/s7-route.xml" />
+        </additionalProperties>
+        <additionalJARContents />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
