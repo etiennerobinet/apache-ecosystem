@@ -1,0 +1,139 @@
+<Wrap>
+	<RimList idx="0">
+		<rim>
+			<RimSteps idx="2">
+				<RimStep>
+					<MinWidth>
+						<unit>IN</unit>
+					</MinWidth>
+					<Diameter>
+						<unit>IN</unit>
+					</Diameter>
+					<MaxWidth>
+						<unit>IN</unit>
+					</MaxWidth>
+				</RimStep>
+			</RimSteps>
+			<RimSteps idx="0">
+				<RimStep>
+					<MaxWidth>0.175<unit>IN</unit>
+					</MaxWidth>
+					<Diameter>0<unit>IN</unit>
+					</Diameter>
+					<MinWidth>0.3274<unit>IN</unit>
+					</MinWidth>
+				</RimStep>
+			</RimSteps>
+			<RimSteps idx="1">
+				<RimStep>
+					<MaxWidth>0.0762<unit>IN</unit>
+					</MaxWidth>
+					<MinWidth>
+						<unit>IN</unit>
+					</MinWidth>
+					<Diameter>
+						<unit>IN</unit>
+					</Diameter>
+				</RimStep>
+			</RimSteps>
+			<RimSetId>5R72</RimSetId>
+			<UpperRimPartNum>-</UpperRimPartNum>
+			<Active>true</Active>
+			<LowerRimPartNum>-</LowerRimPartNum>
+			<Profile/>
+		</rim>
+	</RimList>
+	<RimList idx="2">
+		<rim>
+			<RimSteps idx="2">
+				<RimStep>
+					<Diameter>0.436<unit>IN</unit>
+					</Diameter>
+					<MinWidth>0.3048<unit>IN</unit>
+					</MinWidth>
+					<MaxWidth>0.1524<unit>IN</unit>
+					</MaxWidth>
+				</RimStep>
+			</RimSteps>
+			<RimSteps idx="1">
+				<RimStep>
+					<Diameter>
+						<unit>IN</unit>
+					</Diameter>
+					<MinWidth>
+						<unit>IN</unit>
+					</MinWidth>
+					<MaxWidth>
+						<unit>IN</unit>
+					</MaxWidth>
+				</RimStep>
+			</RimSteps>
+			<RimSteps idx="0">
+				<RimStep>
+					<MinWidth>0.3274<unit>IN</unit>
+					</MinWidth>
+					<Diameter>
+						<unit>IN</unit>
+					</Diameter>
+					<MaxWidth>
+						<unit>IN</unit>
+					</MaxWidth>
+				</RimStep>
+			</RimSteps>
+			<Active>false</Active>
+			<UpperRimPartNum>-</UpperRimPartNum>
+			<RimSetId>5R71</RimSetId>
+			<LowerRimPartNum>-</LowerRimPartNum>
+			<Profile/>
+		</rim>
+	</RimList>
+	<RimList idx="1">
+		<rim>
+			<RimSteps idx="2">
+				<RimStep>
+					<MaxWidth>
+						<unit>IN</unit>
+					</MaxWidth>
+					<MinWidth>0.3048<unit>IN</unit>
+					</MinWidth>
+					<Diameter>
+						<unit>IN</unit>
+					</Diameter>
+				</RimStep>
+			</RimSteps>
+			<RimSteps idx="0">
+				<RimStep>
+					<MaxWidth>
+						<unit>IN</unit>
+					</MaxWidth>
+					<Diameter>
+						<unit>IN</unit>
+					</Diameter>
+					<MinWidth>
+						<unit>IN</unit>
+					</MinWidth>
+				</RimStep>
+			</RimSteps>
+			<RimSteps idx="1">
+				<RimStep>
+					<MinWidth>0.2286<unit>IN</unit>
+					</MinWidth>
+					<MaxWidth>
+						<unit>IN</unit>
+					</MaxWidth>
+					<Diameter>0.3796<unit>IN</unit>
+					</Diameter>
+				</RimStep>
+			</RimSteps>
+			<RimSetId>5R80</RimSetId>
+			<Profile/>
+			<LowerRimPartNum>-</LowerRimPartNum>
+			<UpperRimPartNum>-</UpperRimPartNum>
+			<Active>false</Active>
+		</rim>
+	</RimList>
+	<MachMode>Auto</MachMode>
+	<BarcodeMode>Barcode<reference>ON</reference>
+	</BarcodeMode>
+	<OpMode>N/A</OpMode>
+</Wrap>

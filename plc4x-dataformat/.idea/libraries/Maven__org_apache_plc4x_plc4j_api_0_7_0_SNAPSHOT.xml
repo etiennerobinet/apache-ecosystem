@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.plc4x:plc4j-api:0.7.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/plc4x/plc4j-api/0.7.0-SNAPSHOT/plc4j-api-0.7.0-20200405.210539-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/plc4x/plc4j-api/0.7.0-SNAPSHOT/plc4j-api-0.7.0-20200405.210539-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/plc4x/plc4j-api/0.7.0-SNAPSHOT/plc4j-api-0.7.0-20200405.210539-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

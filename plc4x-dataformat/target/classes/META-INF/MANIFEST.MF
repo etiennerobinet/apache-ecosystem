@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1588593322537
+Build-Jdk: 1.8.0_41
+Built-By: AA68710
+Bundle-Description: Camel data format to unmarshall/marshall from xml to
+  use with PLC4X
+Bundle-ManifestVersion: 2
+Bundle-Name: Goodyear-GE :: Dataformat :: PLC4X
+Bundle-SymbolicName: goodyear.corp.ge.commons.camel.plc4x-dataformat.1.0
+ -SNAPSHOT
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: goodyear.corp.ge.commons.camel;version="1.0.0.SNAPSHOT";
+ uses:="javax.xml.parsers,org.apache.camel,org.apache.plc4x.camel,org.w3
+ c.dom,org.xml.sax"
+Import-Package: javax.xml.parsers,javax.xml.xpath,org.apache.camel;versi
+ on="[2.24,3)",org.apache.plc4x.camel;version="[0.7,1)",org.slf4j;versio
+ n="[1.7,2)",org.w3c.dom,org.xml.sax
+Tool: Bnd-2.1.0.20130426-122213

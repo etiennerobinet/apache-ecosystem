@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation= "http://www.osgi.org/xmlns/blueprint/v1.0.0 https://www.osgi.org/xmlns/blueprint/v1.0.0/blueprint.xsd
+            http://camel.apache.org/schema/blueprint http://camel.apache.org/schema/blueprint/camel-blueprint.xsd">
+
+
+    <camelContext id="PLC-IoTDB" xmlns="http://camel.apache.org/schema/blueprint" streamCache="true" >
+        <route id="ab-route" >
+            <!-- TODO CHANGE IP, BACKPLANE AND SLOT -->
+            <from uri ="plc4x:eip:tcp://163.243.183.250?backplane=1&amp;slot=4&amp;tags=#ab-read"/>
+            <log message="AB: ${body}"/>
+            <to uri="direct:write"/>
+        </route>
+        <route>
+            <from uri="direct:write"/>
+            <setBody>
+                <simple>${ref:ab-write}</simple>
+            </setBody>
+            <log message="${body}"/>
+            <!-- TODO CHANGE IP, BACKPLANE AND SLOT -->
+            <to uri="plc4x:eip:tcp://163.243.183.250?backplane=1&amp;slot=4"/>
+            <log message="${body.values}"/>
+        </route>
+
+
+    </camelContext>
+
+    <bean id="ab-read" class="java.util.ArrayList">
+        <argument>
+            <list>
+                <!-- TODO CHANGE TAG(S) -->
+                <bean class="org.apache.plc4x.camel.TagData">
+                    <argument index="0" value="DIntTest"/>  <!--NAME-->
+                    <argument index="1" value="%test_dint"/> <!--QUERY-->
+                </bean>
+            </list>
+        </argument>
+    </bean>
+
+    <bean id="ab-write" class="java.util.ArrayList">
+        <argument>
+            <list>
+                <bean class="org.apache.plc4x.camel.TagData">
+                    <argument index="0" value="DIntTest"/>
+                    <argument index="1" value="%test_dint:DINT"/>
+                    <argument index="2" value="150"/>
+                </bean>
+            </list>
+        </argument>
+    </bean>
+
+
+</blueprint>

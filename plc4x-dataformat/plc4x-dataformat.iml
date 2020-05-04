@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Osmorc" name="OSGi">
+      <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="plc4x-dataformat-1.0-SNAPSHOT.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="goodyear.corp.ge.commons.camel.plc4x-dataformat.1.0-SNAPSHOT" bundleVersion="1.0.0.SNAPSHOT" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
+        <additionalProperties>
+          <property key="Bundle-Description" value="Camel data format to unmarshall/marshall from xml to use with PLC4X" />
+          <property key="Export-Package" value="goodyear.corp.ge.commons.camel.*" />
+          <property key="Import-Package" value="*" />
+          <property key="Bundle-Name" value="Goodyear-GE :: Dataformat :: PLC4X" />
+          <property key="Include-Resource" value="META-INF/services/org/apache/camel/TypeConverter=$MODULE_DIR$/src/main/resources/META-INF/services/org/apache/camel/TypeConverter" />
+        </additionalProperties>
+        <additionalJARContents />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-core:2.24.2" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.xml.bind:jaxb-core:2.3.0" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.xml.bind:jaxb-impl:2.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.plc4x:plc4j-apache-camel:0.7.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.plc4x:plc4j-api:0.7.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.9" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.10.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-api:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-core-engine:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-base:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-management-api:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-mock:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-support:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-util:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.12" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.slf4j:slf4j-log4j12:1.7.12" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-test:2.24.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.12" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
+  </component>
+</module>

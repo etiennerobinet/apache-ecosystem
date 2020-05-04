@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation= "http://www.osgi.org/xmlns/blueprint/v1.0.0 https://www.osgi.org/xmlns/blueprint/v1.0.0/blueprint.xsd
+            http://camel.apache.org/schema/blueprint http://camel.apache.org/schema/blueprint/camel-blueprint-2.24.2.xsd">
+
+
+    <camelContext id="PLC-IoTDB" xmlns="http://camel.apache.org/schema/blueprint" streamCache="true" >
+        <route id="plc-route" >
+            <from uri="timer://plcFetch?fixedRate=true&amp;period=1000"/>
+            <pollEnrich>
+                <simple>plc4x:s7:tcp://192.168.178.10?tags=#fields</simple> <!-- TODO CHANGE TO PLC IP -->
+            </pollEnrich>
+            <log message="${body}"/>
+            <to uri="mock:test?retainLast=10"/>
+        </route>
+
+    </camelContext>
+
+
+    <bean id="fields" class="java.util.ArrayList">
+        <argument>
+            <list>
+                <!-- TODO CHANGE TAG(S) -->
+               <bean class="org.apache.plc4x.camel.TagData">
+                   <argument index="0" value="IntTest"/> <!-- NAME -->
+                   <argument index="1" value="%DB1.DBW254:INT"/><!-- QUERY -->
+               </bean>
+
+            </list>
+        </argument>
+    </bean>
+
+
+</blueprint>

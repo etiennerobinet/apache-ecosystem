@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ed5f7988-bf7b-4512-87a7-368f84ad6975" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="C:\Apps\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1ZqiYmp61zVdiJsodS2ZCUovgFN" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/goodyear/corp/ge" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/apache/camel/camel-core-catalog/3.1.0/camel-core-catalog-3.1.0.jar!/org/apache/camel/catalog/impl" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Apps\plc4x-dataformat\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ConversionsTest">
+    <configuration name="ConversionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="plc4x-dataformat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="goodyear.corp.ge.commons.camel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="goodyear.corp.ge.commons.camel" />
+      <option name="MAIN_CLASS_NAME" value="goodyear.corp.ge.commons.camel.ConversionsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConversionsTest.testXMLtoTag" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="plc4x-dataformat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="goodyear.corp.ge.commons.camel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="goodyear.corp.ge.commons.camel" />
+      <option name="MAIN_CLASS_NAME" value="goodyear.corp.ge.commons.camel.ConversionsTest" />
+      <option name="METHOD_NAME" value="testXMLtoTag" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConversionsTest.testXMLtoZf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="plc4x-dataformat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="goodyear.corp.ge.commons.camel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="goodyear.corp.ge.commons.camel" />
+      <option name="MAIN_CLASS_NAME" value="goodyear.corp.ge.commons.camel.ConversionsTest" />
+      <option name="METHOD_NAME" value="testXMLtoZf" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConversionsTest.testZfToXML" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="plc4x-dataformat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="goodyear.corp.ge.commons.camel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="goodyear.corp.ge.commons.camel" />
+      <option name="MAIN_CLASS_NAME" value="goodyear.corp.ge.commons.camel.ConversionsTest" />
+      <option name="METHOD_NAME" value="testZfToXML" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="plc4x-dataformat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="goodyear.corp.ge.commons.camel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="goodyear.corp.ge.commons.camel" />
+      <option name="MAIN_CLASS_NAME" value="goodyear.corp.ge.commons.camel.Tester" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.Tester" />
+      <item itemvalue="JUnit.ConversionsTest.testZfToXML" />
+      <item itemvalue="JUnit.ConversionsTest.testXMLtoZf" />
+      <item itemvalue="JUnit.ConversionsTest" />
+      <item itemvalue="JUnit.ConversionsTest.testXMLtoTag" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ConversionsTest" />
+        <item itemvalue="JUnit.ConversionsTest.testXMLtoTag" />
+        <item itemvalue="JUnit.ConversionsTest.testZfToXML" />
+        <item itemvalue="JUnit.ConversionsTest.testXMLtoZf" />
+        <item itemvalue="JUnit.Tester" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed5f7988-bf7b-4512-87a7-368f84ad6975" name="Default Changelist" comment="" />
+      <created>1585573074433</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585573074433</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585634580984">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585634580984" />
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586161852259">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1586161852259" />
+    <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585573342624">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585573342624" />
+    <state x="789" y="204" width="881" height="594" key="#xdebugger.evaluate" timestamp="1586163620262">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="789" y="204" width="881" height="594" key="#xdebugger.evaluate/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1586163620262" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1585641999465">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="261" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585641999465" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1588593315104">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588593315104" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1588593315104">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588593315104" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1588593315104">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588593315104" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1588593315104">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588593315104" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1586164040081">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1586164040081" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1586164040081">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1586164040081" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1586164040081">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1586164040081" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1586164040081">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1586164040081" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1585642110344">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585642110344" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1585646055911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585646055911" />
+    <state x="776" y="298" key="chooseDestDirectoryDialog" timestamp="1585638940348">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="776" y="298" key="chooseDestDirectoryDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585638940348" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1586157021534">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1586157021534" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585639165317">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585639165317" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/plc4x/plc4j-apache-camel/0.7.0-SNAPSHOT/plc4j-apache-camel-0.7.0-SNAPSHOT.jar!/org/apache/plc4x/camel/TagData.class</url>
+          <line>52</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="got.get(4).value" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/plc4x_dataformat$ConversionsTest_testXMLtoTag.ic" NAME="ConversionsTest.testXMLtoTag Coverage Results" MODIFIED="1586161813768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>goodyear.corp.ge.commons.camel.*</FILTER>
+    </SUITE>
+  </component>
+</project>
