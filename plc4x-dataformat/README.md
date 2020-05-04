@@ -20,7 +20,7 @@ Add the bean definition to your camel context
 
 Then you can unmarshal from XML to Plc4X format  
 ```xml
-<convertBodyTo type="Map"/>
+<convertBodyTo type="List"/>
 ```
 
 Format
@@ -28,27 +28,32 @@ Format
 
 ***XML***
 ```xml
-<root>
-    <Code>
-        <FTC>123 456 789</FTC>
-        <TIC>U123</TIC>
-    </Code>
-</root>
+<transaction>
+  <tag name="tag1"/>
+  <tag name="tag2" type="STRING">ge</tag>
+  <tag length="3" name="tag3" type="INT">
+    <value idx="1">1</value>
+    <value idx="2">2</value>
+    <value idx="3">3</value>
+  </tag>
+</transaction>
+
 ```
 
 
-***ZF MAP***
+***TagData List***
 ```ini
-Code.FTC = 123 456 789
-Code.TIC = U123                                      
+-TagData("tag1","%tag1")    
+-TagData("tag2","%tag2:STRING","ge") 
+-TagData("tag3","%tag3:5:INT",{1,2,3}) 
 ```
 
 
 
 Intallation
 -----------
-bundle:install mvn:goodyear.corp.ge.commons.camel/plc4x-dataformat/LATEST
+-
 
 Author
 ------
-GE
+Robinet Etienne
