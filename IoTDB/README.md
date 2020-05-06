@@ -17,6 +17,8 @@ This Dockerfile can be used to start a Docker container with a IoTDB server and 
 
 8. Click on <img src="./media/save.png"/> and you should get a confirmation that the DataSource is working
 
+9. You can download the RELEASE version of [IoTDB](http://iotdb.apache.org/Download/) to interact with IoTDB using CLI
+
 ## Properties
 
 To edit properties of the Database, edit the `iotdb-engine.properties` file before executing `start.bat`. In this file, you can change the default TTL for timeseries, set their precision ( ms, us, ns) .
