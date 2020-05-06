@@ -32,6 +32,7 @@ WORKDIR /
 
 VOLUME /opt/incubator-iotdb/server/target/iotdb-server-0.10.0-SNAPSHOT/data
 VOLUME /opt/incubator-iotdb/server/target/iotdb-server-0.10.0-SNAPSHOT/logs
+VOLUME /opt/grafana-6.7.1
 
 EXPOSE 3000
 EXPOSE 6667

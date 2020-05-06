@@ -33,9 +33,9 @@ The batch-file can be modified to change port bindings. To do so, change the por
 - `6667`: IoTDB Server port
 
 ```shell
--v C:/IotDB/data:/opt/incubator-iotdb/server/target/iotdb-server-0.10.0-SNAPSHOT/data
+-v C:/IoTDB/data:/opt/incubator-iotdb/server/target/iotdb-server-0.10.0-SNAPSHOT/data
 -v C:/IoTDB/logs:/opt/incubator-iotdb/server/target/iotdb-server-0.10.0-SNAPSHOT/logs iotdb
 ```
 
-The `-v` option is used to bind volumes from the container. This allows the Database to be persistent if the container is shut down. The default location on the host machine is set to `C:/IotDB/data` and `C:/IotDB/logs`. These values can be modified to change the location of the Database's data on the host machine.
+The `-v` option is used to bind volumes from the container. This allows the Database to be persistent if the container is shut down. The default location on the host machine is set to `C:/IoTDB/data` and `C:/IoTDB/logs`. These values can be modified to change the location of the Database's data on the host machine.
 
