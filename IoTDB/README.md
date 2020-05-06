@@ -15,7 +15,7 @@ This Dockerfile can be used to start a Docker container with a IoTDB server and 
 
 7. Enter a **Name** for your DataSource and the URL (default is http://127.0.0.1:8880) <img src=".\media\iotdb.png"/>  
 
-8. Click on <img src="./media./save.png" /> and you should get a confirmation that the DataSource is working
+8. Click on <img src="./media/save.png"/> and you should get a confirmation that the DataSource is working
 
 ## Properties
 
